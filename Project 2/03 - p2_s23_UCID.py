@@ -1,4 +1,4 @@
-# Moiez Qamar - MQ56
+# Name - UCID
 # CS 341 - 006
 
 '''This program was tested on the NJIT AFS machines and it worked successfully there'''
@@ -7,7 +7,7 @@ print(
 '''Project 2 for CS 341
 Section number: 006
 Semester: Spring 2023
-Written by: Moiez Qamar, MQ56
+Written by: Name, UCID
 Instructor: Marvin Nakayama, marvin@njit.edu
 
 
