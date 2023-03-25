@@ -1,0 +1,747 @@
+Project 1 for CS 341
+Section number: 006
+Semester: Spring 2023
+Written by: ---, ---
+Instructor: Marvin Nakayama, marvin@njit.edu
+
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: f8o9o@ab32cdef.edu
+
+...State q1
+......Checking letter f
+...State q2
+......Checking letter 8
+...State q2
+......Checking letter o
+...State q2
+......Checking letter 9
+...State q2
+......Checking letter o
+...State q2
+......Checking letter @
+...State q3
+......Checking letter a
+...State q4
+......Checking letter b
+...State q4
+......Checking letter 3
+...State q4
+......Checking letter 2
+...State q4
+......Checking letter c
+...State q4
+......Checking letter d
+...State q4
+......Checking letter e
+...State q4
+......Checking letter f
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+......String Exhausted (no letters remaining)
+
+** String f8o9o@ab32cdef.edu was Successful **
+
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: z@e.edu
+
+...State q1
+......Checking letter z
+...State q2
+......Checking letter @
+...State q3
+......Checking letter e
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+......String Exhausted (no letters remaining)
+
+** String z@e.edu was Successful **
+
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: ba@ba.ed
+
+...State q1
+......Checking letter b
+...State q2
+......Checking letter a
+...State q2
+......Checking letter @
+...State q3
+......Checking letter b
+...State q4
+......Checking letter a
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+
+**String: 'ba@ba.ed' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: edfg@.edu
+
+...State q1
+......Checking letter e
+...State q2
+......Checking letter d
+...State q2
+......Checking letter f
+...State q2
+......Checking letter g
+...State q2
+......Checking letter @
+...State q3
+......Checking letter .
+
+**String: 'edfg@.edu' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: web2web.a.c97c.edu@j.k68c42.educate.edu
+
+...State q1
+......Checking letter w
+...State q2
+......Checking letter e
+...State q2
+......Checking letter b
+...State q2
+......Checking letter 2
+...State q2
+......Checking letter w
+...State q2
+......Checking letter e
+...State q2
+......Checking letter b
+...State q2
+......Checking letter .
+...State q1
+......Checking letter a
+...State q2
+......Checking letter .
+...State q1
+......Checking letter c
+...State q2
+......Checking letter 9
+...State q2
+......Checking letter 7
+...State q2
+......Checking letter c
+...State q2
+......Checking letter .
+...State q1
+......Checking letter e
+...State q2
+......Checking letter d
+...State q2
+......Checking letter u
+...State q2
+......Checking letter @
+...State q3
+......Checking letter j
+...State q4
+......Checking letter .
+...State q5
+......Checking letter k
+...State q4
+......Checking letter 6
+...State q4
+......Checking letter 8
+...State q4
+......Checking letter c
+...State q4
+......Checking letter 4
+...State q4
+......Checking letter 2
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+...State q4
+......Checking letter c
+...State q4
+......Checking letter a
+...State q4
+......Checking letter t
+...State q4
+......Checking letter e
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+......String Exhausted (no letters remaining)
+
+** String web2web.a.c97c.edu@j.k68c42.educate.edu was Successful **
+
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: fo8o@goo2.edu..edu
+
+...State q1
+......Checking letter f
+...State q2
+......Checking letter o
+...State q2
+......Checking letter 8
+...State q2
+......Checking letter o
+...State q2
+......Checking letter @
+...State q3
+......Checking letter g
+...State q4
+......Checking letter o
+...State q4
+......Checking letter o
+...State q4
+......Checking letter 2
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+...State q4
+......Checking letter .
+...State q5
+......Checking letter .
+
+**String: 'fo8o@goo2.edu..edu' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: ab67qe.@boom.edu
+
+...State q1
+......Checking letter a
+...State q2
+......Checking letter b
+...State q2
+......Checking letter 6
+...State q2
+......Checking letter 7
+...State q2
+......Checking letter q
+...State q2
+......Checking letter e
+...State q2
+......Checking letter .
+...State q1
+......Checking letter @
+
+**String: 'ab67qe.@boom.edu' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: edu2c@computer56.educate
+
+...State q1
+......Checking letter e
+...State q2
+......Checking letter d
+...State q2
+......Checking letter u
+...State q2
+......Checking letter 2
+...State q2
+......Checking letter c
+...State q2
+......Checking letter @
+...State q3
+......Checking letter c
+...State q4
+......Checking letter o
+...State q4
+......Checking letter m
+...State q4
+......Checking letter p
+...State q4
+......Checking letter u
+...State q4
+......Checking letter t
+...State q4
+......Checking letter e
+...State q4
+......Checking letter r
+...State q4
+......Checking letter 5
+...State q4
+......Checking letter 6
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+...State q4
+......Checking letter c
+...State q4
+......Checking letter a
+...State q4
+......Checking letter t
+...State q4
+......Checking letter e
+
+**String: 'edu2c@computer56.educate' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: redblue@green..edu
+
+...State q1
+......Checking letter r
+...State q2
+......Checking letter e
+...State q2
+......Checking letter d
+...State q2
+......Checking letter b
+...State q2
+......Checking letter l
+...State q2
+......Checking letter u
+...State q2
+......Checking letter e
+...State q2
+......Checking letter @
+...State q3
+......Checking letter g
+...State q4
+......Checking letter r
+...State q4
+......Checking letter e
+...State q4
+......Checking letter e
+...State q4
+......Checking letter n
+...State q4
+......Checking letter .
+...State q5
+......Checking letter .
+
+**String: 'redblue@green..edu' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: random6@edu
+
+...State q1
+......Checking letter r
+...State q2
+......Checking letter a
+...State q2
+......Checking letter n
+...State q2
+......Checking letter d
+...State q2
+......Checking letter o
+...State q2
+......Checking letter m
+...State q2
+......Checking letter 6
+...State q2
+......Checking letter @
+...State q3
+......Checking letter e
+...State q4
+......Checking letter d
+...State q4
+......Checking letter u
+
+**String: 'random6@edu' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: p654aa7e@a896.edu.edu
+
+...State q1
+......Checking letter p
+...State q2
+......Checking letter 6
+...State q2
+......Checking letter 5
+...State q2
+......Checking letter 4
+...State q2
+......Checking letter a
+...State q2
+......Checking letter a
+...State q2
+......Checking letter 7
+...State q2
+......Checking letter e
+...State q2
+......Checking letter @
+...State q3
+......Checking letter a
+...State q4
+......Checking letter 8
+...State q4
+......Checking letter 9
+...State q4
+......Checking letter 6
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+......String Exhausted (no letters remaining)
+
+** String p654aa7e@a896.edu.edu was Successful **
+
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: www@a89.edu.educ
+
+...State q1
+......Checking letter w
+...State q2
+......Checking letter w
+...State q2
+......Checking letter w
+...State q2
+......Checking letter @
+...State q3
+......Checking letter a
+...State q4
+......Checking letter 8
+...State q4
+......Checking letter 9
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+...State q4
+......Checking letter c
+
+**String: 'www@a89.edu.educ' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: wwwb@bb91a.edu.ed
+
+...State q1
+......Checking letter w
+...State q2
+......Checking letter w
+...State q2
+......Checking letter w
+...State q2
+......Checking letter b
+...State q2
+......Checking letter @
+...State q3
+......Checking letter b
+...State q4
+......Checking letter b
+...State q4
+......Checking letter 9
+...State q4
+......Checking letter 1
+...State q4
+......Checking letter a
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+
+**String: 'wwwb@bb91a.edu.ed' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: 34big.edu@bbdef29.edu
+
+...State q1
+......Checking letter 3
+
+**String: '34big.edu@bbdef29.edu' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: food@for.edu@
+
+...State q1
+......Checking letter f
+...State q2
+......Checking letter o
+...State q2
+......Checking letter o
+...State q2
+......Checking letter d
+...State q2
+......Checking letter @
+...State q3
+......Checking letter f
+...State q4
+......Checking letter o
+...State q4
+......Checking letter r
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+...State q4
+......Checking letter @
+
+**String: 'food@for.edu@' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: net.a.b.4c@comma3.edu.edu
+
+...State q1
+......Checking letter n
+...State q2
+......Checking letter e
+...State q2
+......Checking letter t
+...State q2
+......Checking letter .
+...State q1
+......Checking letter a
+...State q2
+......Checking letter .
+...State q1
+......Checking letter b
+...State q2
+......Checking letter .
+...State q1
+......Checking letter 4
+
+**String: 'net.a.b.4c@comma3.edu.edu' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: net84work.abb@common.6edu.edu
+
+...State q1
+......Checking letter n
+...State q2
+......Checking letter e
+...State q2
+......Checking letter t
+...State q2
+......Checking letter 8
+...State q2
+......Checking letter 4
+...State q2
+......Checking letter w
+...State q2
+......Checking letter o
+...State q2
+......Checking letter r
+...State q2
+......Checking letter k
+...State q2
+......Checking letter .
+...State q1
+......Checking letter a
+...State q2
+......Checking letter b
+...State q2
+......Checking letter b
+...State q2
+......Checking letter @
+...State q3
+......Checking letter c
+...State q4
+......Checking letter o
+...State q4
+......Checking letter m
+...State q4
+......Checking letter m
+...State q4
+......Checking letter o
+...State q4
+......Checking letter n
+...State q4
+......Checking letter .
+...State q5
+......Checking letter 6
+
+**String: 'net84work.abb@common.6edu.edu' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: @abcde.edu
+
+...State q1
+......Checking letter @
+
+**String: '@abcde.edu' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: people5.d7og.c8at@c.edu3.edu
+
+...State q1
+......Checking letter p
+...State q2
+......Checking letter e
+...State q2
+......Checking letter o
+...State q2
+......Checking letter p
+...State q2
+......Checking letter l
+...State q2
+......Checking letter e
+...State q2
+......Checking letter 5
+...State q2
+......Checking letter .
+...State q1
+......Checking letter d
+...State q2
+......Checking letter 7
+...State q2
+......Checking letter o
+...State q2
+......Checking letter g
+...State q2
+......Checking letter .
+...State q1
+......Checking letter c
+...State q2
+......Checking letter 8
+...State q2
+......Checking letter a
+...State q2
+......Checking letter t
+...State q2
+......Checking letter @
+...State q3
+......Checking letter c
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+...State q4
+......Checking letter 3
+...State q4
+......Checking letter .
+...State q5
+......Checking letter e
+...State q6
+......Checking letter d
+...State q7
+......Checking letter u
+...State q8
+......String Exhausted (no letters remaining)
+
+** String people5.d7og.c8at@c.edu3.edu was Successful **
+
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: cable..cord@fort.edu
+
+...State q1
+......Checking letter c
+...State q2
+......Checking letter a
+...State q2
+......Checking letter b
+...State q2
+......Checking letter l
+...State q2
+......Checking letter e
+...State q2
+......Checking letter .
+...State q1
+......Checking letter .
+
+**String: 'cable..cord@fort.edu' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): n
+
+
+-=-=-=-=-=-=-=-=-= Final Results =-=-=-=-=-=-=-=-=-
+f8o9o@ab32cdef.edu : Success
+z@e.edu : Success
+ba@ba.ed : Failure
+edfg@.edu : Failure
+web2web.a.c97c.edu@j.k68c42.educate.edu : Success
+fo8o@goo2.edu..edu : Failure
+ab67qe.@boom.edu : Failure
+edu2c@computer56.educate : Failure
+redblue@green..edu : Failure
+random6@edu : Failure
+p654aa7e@a896.edu.edu : Success
+www@a89.edu.educ : Failure
+wwwb@bb91a.edu.ed : Failure
+34big.edu@bbdef29.edu : Failure
+food@for.edu@ : Failure
+net.a.b.4c@comma3.edu.edu : Failure
+net84work.abb@common.6edu.edu : Failure
+@abcde.edu : Failure
+people5.d7og.c8at@c.edu3.edu : Success
+cable..cord@fort.edu : Failure
