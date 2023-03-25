@@ -16,4 +16,6 @@ Below explains what each file is for:
 
 **05 - outputs.txt** > This contains the output resulting from testing the inputs from *01B - inputs.txt*
 
+To run the Python file, use the following command: `python "04 - p1_23s_UCID.py"`
 
+***This project recieved a 100%!***
