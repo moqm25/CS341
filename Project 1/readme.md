@@ -8,7 +8,7 @@ Below explains what each file is for:
 
 **01B - inputs.txt** > This contains the inputs tested for this assignment
 
-**02 - DFA for L.docx** > This contains the DFA for the language L developed in this program
+**02 - DFA for L.pdf** > This contains the DFA for the language L developed in this program
 
 **03 - 5 Tuple Specification for DFA.pdf** > This contains the 5 Tuple specification for the DFA
 
@@ -19,3 +19,7 @@ Below explains what each file is for:
 To run the Python file, use the following command: `python "04 - p1_23s_UCID.py"`
 
 ***This project recieved a 100%!***
+
+
+
+*please do not copy my code and pass it off as yours, thanks.*

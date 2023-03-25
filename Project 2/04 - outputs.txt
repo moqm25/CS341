@@ -1,0 +1,1064 @@
+Project 2 for CS 341
+Section number: 006
+Semester: Spring 2023
+Written by: Name, UCID
+Instructor: Marvin Nakayama, marvin@njit.edu
+
+
+(This program was tested on the NJIT AFS machines and it worked successfully there)
+
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$381.5886$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: 3
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 8
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 1
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 5
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 8
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 8
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 6
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: $
+Stack: ['$', '$']
+......Symbol popped: $ - Symbol Pushed: ε
+...State Q8: $
+Stack: ['$']
+......Symbol popped: $ - Symbol Pushed: ε
+
+**String: '$$381.5886$$' is a valid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$7956.+.492*341.2/060.10/52581.263-.9+.53/7.$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: 7
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 9
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 5
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 6
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: +
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: )
+...State Q8: 4
+Stack: ['$', '$', ')']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q5: 9
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: *
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 3
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 4
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 1
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: /
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 0
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 6
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 0
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 1
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 0
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: /
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 5
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 2
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 5
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 8
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 1
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 6
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 3
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: -
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: )
+...State Q8: 9
+Stack: ['$', '$', ')']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q5: +
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: )
+...State Q8: 5
+Stack: ['$', '$', ')']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q5: 3
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: /
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 7
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: $
+Stack: ['$', '$']
+......Symbol popped: $ - Symbol Pushed: ε
+...State Q8: $
+Stack: ['$']
+......Symbol popped: $ - Symbol Pushed: ε
+
+**String: '$$7956.+.492*341.2/060.10/52581.263-.9+.53/7.$$' is a valid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$382.89*34$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: 3
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 8
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 2
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 8
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 9
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: *
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 3
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 4
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: $
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+
+**String: '$$382.89*34$$' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$4.239-.*7.29$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: 4
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 3
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 9
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: -
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: )
+...State Q8: *
+Stack: ['$', '$', ')']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 7
+Stack: ['$', '$', ')']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', ')']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$', ')']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 9
+Stack: ['$', '$', ')']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: $
+Stack: ['$', '$', ')']
+......Symbol popped: ε - Symbol Pushed: ε
+
+**String: '$$4.239-.*7.29$$' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$6.88.6+32.208$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: 6
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 8
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 8
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+
+**String: '$$6.88.6+32.208$$' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$(1.2+(3.4-.9)/39).3$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: (
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: 1
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: +
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: (
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: 3
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 4
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: -
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: .
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: )
+...State Q8: 9
+Stack: ['$', '$', '(', '(', ')']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: /
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 3
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 9
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: )
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+
+**String: '$$(1.2+(3.4-.9)/39).3$$' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$(.3)64$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: (
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: .
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 3
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: 6
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 4
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: $
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+
+**String: '$$(.3)64$$' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$((824.23+(9.22-00.0)*21.2))+((.2/7.))$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: (
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: (
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: 8
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 2
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 4
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 3
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: +
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: (
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: 9
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: -
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 0
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 0
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 0
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: *
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 2
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 1
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: )
+Stack: ['$', '$', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: +
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: (
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: (
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: .
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: /
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 7
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: )
+Stack: ['$', '$', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: $
+Stack: ['$', '$']
+......Symbol popped: $ - Symbol Pushed: ε
+...State Q8: $
+Stack: ['$']
+......Symbol popped: $ - Symbol Pushed: ε
+
+**String: '$$((824.23+(9.22-00.0)*21.2))+((.2/7.))$$' is a valid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$(())$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: (
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: (
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: )
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+
+**String: '$$(())$$' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$((14.252+(692.211*(.39+492.1))/49.235)$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: (
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: (
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: 1
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 4
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 5
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: +
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: (
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: 6
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 9
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 2
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 1
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 1
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: *
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: (
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: .
+Stack: ['$', '$', '(', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 3
+Stack: ['$', '$', '(', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 9
+Stack: ['$', '$', '(', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: +
+Stack: ['$', '$', '(', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 4
+Stack: ['$', '$', '(', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 9
+Stack: ['$', '$', '(', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 2
+Stack: ['$', '$', '(', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 1
+Stack: ['$', '$', '(', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(', '(', '(', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: )
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: /
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 4
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 9
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 3
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 5
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: $
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+
+**String: '$$((14.252+(692.211*(.39+492.1))/49.235)$$' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$+6.5$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: +
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+
+**String: '$$+6.5$$' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$26.0*(.87/((4.+.2)/(23.531)-2.9)+6.)/(((823.*.333-57.*8.0)/.33+.0))$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: 2
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 6
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 0
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: *
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: (
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: .
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 8
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 7
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: /
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: (
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: (
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: 4
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: +
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: .
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: )
+...State Q8: 2
+Stack: ['$', '$', '(', '(', '(', ')']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: /
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: (
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: 2
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 3
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 5
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 3
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 1
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: -
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 2
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 9
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: +
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 6
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: /
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: (
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: (
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: (
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: 8
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 2
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 3
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: *
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: .
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: )
+...State Q8: 3
+Stack: ['$', '$', '(', '(', '(', ')']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q5: 3
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 3
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: -
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 5
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 7
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: *
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 8
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 0
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(', '(', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: /
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: .
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: )
+...State Q8: 3
+Stack: ['$', '$', '(', '(', ')']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q5: 3
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: +
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: .
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: )
+...State Q8: 0
+Stack: ['$', '$', '(', '(', ')']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: )
+Stack: ['$', '$', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: $
+Stack: ['$', '$']
+......Symbol popped: $ - Symbol Pushed: ε
+...State Q8: $
+Stack: ['$']
+......Symbol popped: $ - Symbol Pushed: ε
+
+**String: '$$26.0*(.87/((4.+.2)/(23.531)-2.9)+6.)/(((823.*.333-57.*8.0)/.33+.0))$$' is a valid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$.0*(32.922+.7-*9.))$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 0
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: *
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: (
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: 3
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: 2
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 9
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 2
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: +
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: .
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: )
+...State Q8: 7
+Stack: ['$', '$', '(', ')']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q5: -
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: *
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+
+**String: '$$.0*(32.922+.7-*9.))$$' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): y
+Enter string: $$(4.+(.8-9.))/2.)*3.4+(5.21/34.2$$
+
+...State Q1: $
+Stack: []
+......Symbol popped: ε - Symbol Pushed: $
+...State Q2: $
+Stack: ['$']
+......Symbol popped: ε - Symbol Pushed: $
+...State Q3: (
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: 4
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: +
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: (
+Stack: ['$', '$', '(']
+......Symbol popped: ε - Symbol Pushed: (
+...State Q7: .
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: 8
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: -
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 9
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$', '(', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: )
+Stack: ['$', '$', '(']
+......Symbol popped: ) - Symbol Pushed: ε
+...State Q8: /
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q6: 2
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q4: .
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+...State Q5: )
+Stack: ['$', '$']
+......Symbol popped: ε - Symbol Pushed: ε
+
+**String: '$$(4.+(.8-9.))/2.)*3.4+(5.21/34.2$$' is an invalid string**
+
+Would you like to enter a string (enter 'y' or 'n'): n
+
+
+-=-=-=-=-=-=-=-=-= Final Results =-=-=-=-=-=-=-=-=-
+$$381.5886$$ : Success
+$$.8+7.-8.00/90.765+$$ : Failure
+$$7956.+.492*341.2/060.10/52581.263-.9+.53/7.$$ : Success
+$$382.89*34$$ : Failure
+$$4.239-.*7.29$$ : Failure
+$$6.88.6+32.208$$ : Failure
+$$(1.2+(3.4-.9)/39).3$$ : Failure
+$$(.3)64$$ : Failure
+$$((824.23+(9.22-00.0)*21.2))+((.2/7.))$$ : Success
+$$(())$$ : Failure
+$$((14.252+(692.211*(.39+492.1))/49.235)$$ : Failure
+$$+6.5$$ : Failure
+$$26.0*(.87/((4.+.2)/(23.531)-2.9)+6.)/(((823.*.333-57.*8.0)/.33+.0))$$ : Success
+$$.0*(32.922+.7-*9.))$$ : Failure
+$$(4.+(.8-9.))/2.)*3.4+(5.21/34.2$$ : Failure
