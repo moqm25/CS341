@@ -16,7 +16,7 @@ Below explains what each file is for:
 
 To run the Python file, use the following command: `python "03 - p2_23s_UCID.py"`
 
-***This project recieved a ___%!***
+***This project recieved a 100%!***
 
 
 
